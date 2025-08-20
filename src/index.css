@@ -1,0 +1,4 @@
+@import "tailwindcss";
+@plugin "daisyui" {
+	themes: light, dark;                   /* 추가, 다크&라이트 모드도 같이 추가 */
+}

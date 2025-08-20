@@ -38,3 +38,6 @@ jobs:
 
       - name: S3에 빌드된 파일 업로드하기
         run: aws s3 cp ./dist s3://daisy-bok/ --recursive
+
+      - name: CloudFront 캐시무효화하기
+        run: aws cloudfront create-invalidation --distribution-id EXJ1HQOJ0ZHJ --paths "/*"

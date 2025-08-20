@@ -24,7 +24,7 @@ export default function App() {
       {/* 상단 네비 + 테마 스위처 */}
       <div className="navbar bg-base-100 text-base-content shadow-sm">
         <div className="flex-1">
-          <a className="btn btn-ghost text-xl">DaisyUI 체험하기</a>
+          <a className="btn btn-ghost text-xl">DaisyUI 체험하기 & CI/CD 적용하기</a>
         </div>
         <div className="flex items-center gap-2">
           <button
